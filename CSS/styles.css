@@ -1,0 +1,459 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:wght@100;200;400;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(../images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title{
+    padding: 40px;
+    width: 180px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 120px;
+}
+
+.img{
+    width: 680px;
+}
+
+.text{
+    width: 23%;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
+}
+
+.text .text_title{
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.text .text_paragraph{
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 27px;
+    margin-bottom: 30px;
+}
+
+.text .register{
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.register:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+    box-shadow: 0px 0px 3px #000;
+}
+
+.text button{
+    color: hsl(257, 40%, 49%);
+    padding: 13px;
+    width: 150px;
+    border-radius: 20px;
+    border: none;
+}
+
+.enlaces{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    width: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+}
+
+.circle{
+    display: block;
+    border: 1px solid #fff;
+    width: 20px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.fa-brands{
+    font-size: 17px;
+}
+
+.circle:hover{
+    border: 1px solid hsl(300, 69%, 71%);
+    color: hsl(300, 69%, 71%);
+}
+
+footer{
+    position: absolute;
+    bottom: 2%;
+    right: 25%;
+    left: 25%;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: gold; }
+
+
+@media screen and (max-width: 1844px ){
+    .title{
+        width: 130px;
+    }
+
+    .container{
+        width: 80%;
+        margin: 130px auto;
+        gap: 50px;
+    }
+
+    .img{
+        width: 750px;
+    }
+
+    .text{
+        width: 40%;
+        margin: 30px 0;
+    }
+
+    .text .text_title{
+        font-size: 45px;
+    }
+
+    .text .text_paragraph{
+        font-size: 18px;
+    }
+
+    .text .register{
+        width: 220px;
+        padding: 17px;
+        border-radius: 20px;
+        font-size: 18px;
+    }
+
+    .enlaces{
+        width: 15%;
+        bottom: 13%;
+        right: 10%;
+    }
+}
+
+@media screen and (max-width: 1617px) {
+    .container{
+        margin: 80px auto;
+    }
+
+    .img{
+        width: 650px;
+    }
+
+    .text .text_title{
+        font-size: 43px;
+    }
+
+    .text .text_paragraph{
+        font-size: 16px;
+    }
+
+    .text .register{
+        width: 200px;
+        padding: 13px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1474px) {
+
+    .img{
+        width: 600px;
+    }
+
+    .text .text_title{
+        font-size: 40px;
+    }
+
+    .text .register{
+        width: 190px;
+        padding: 12px;
+    }
+}
+
+@media screen and (max-width: 1371px) {
+
+    .img{
+        width: 580px;
+    }
+
+    .text .text_title{
+        font-size: 38px;
+    }
+
+}
+
+@media screen and (max-width: 1309px) {
+
+    .img{
+        width: 560px;
+    }
+
+    .text .text_title{
+        font-size: 35px;
+    }
+
+    .text .text_paragraph{
+        font-size: 15px;
+    }
+
+    .text .register{
+        width: 180px;
+        padding: 12px;
+    }
+
+}
+
+@media screen and (max-width: 1243px) {
+
+    .img{
+        width: 530px;
+    }
+
+    .text .text_title{
+        font-size: 33px;
+    }
+
+    .text .text_paragraph{
+        font-size: 15px;
+    }
+
+    .text .register{
+        width: 178px;
+        padding: 12px;
+    }
+
+}
+
+@media screen and (max-width: 1178px) {
+
+    .img{
+        width: 510px;
+    }
+
+    .text .text_title{
+        font-size: 32px;
+    }
+
+    .text .text_paragraph{
+        font-size: 15px;
+    }
+
+    .text .register{
+        width: 173px;
+        padding: 11px;
+    }
+
+}
+
+@media screen and (max-width: 1139px) {
+
+    .img{
+        width: 440px;
+    }
+
+    .text .text_title{
+        font-size: 30px;
+    }
+
+    .text .register{
+        width: 160px;
+    }
+
+}
+
+@media screen and (max-width: 1028px) {
+
+    .container{
+        width: 90%;
+    }
+
+    .img{
+        width: 438px;
+    }
+
+    .text .text_title{
+        font-size: 30px;
+    }
+
+    .text .register{
+        width: 160px;
+    }
+
+}
+
+@media screen and (max-width: 914px) {
+
+    .container{
+        width: 95%;
+        margin: 100px auto;
+    }
+
+    .img{
+        width: 438px;
+    }
+
+    .text .text_title{
+        font-size: 30px;
+    }
+
+    .text .register{
+        width: 160px;
+    }
+
+}
+
+@media screen and (max-width: 866px) {
+
+    .hero{
+        width: 100%;
+    }
+
+    .container{
+        width: 80%;
+        margin: auto;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .img{
+        width: 370px;
+    }
+
+    .text{
+        width: 60%;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .enlaces{
+        width: 20%;
+        bottom: 8%;
+        right: 40%;
+    }
+
+}
+
+@media screen and (max-width: 686px) {
+
+    .hero{
+        width: 100%;
+    }
+
+    .container{
+        width: 80%;
+        margin: auto;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .img{
+        width: 350px;
+    }
+
+    .text{
+        width: 75%;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .text .text_title{
+        font-size: 30px;
+    }
+
+    .enlaces{
+        width: 30%;
+        bottom: 9%;
+        right: 35%;
+    }
+
+}
+
+@media screen and (max-width: 549px) {
+
+    .img{
+        width: 335px;
+    }
+
+    .text{
+        width: 80%;
+    }
+
+    .text .text_title{
+        font-size: 28px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .container{
+        margin: 30px auto;
+    }
+
+    .img{
+        width: 310px;
+    }
+
+    .text{
+        width: 100%;
+    }
+
+    .text .text_title{
+        font-size: 25px;
+    }
+
+    .enlaces{
+        width: 40%;
+        bottom: 15%;
+        right: 30%;
+    }
+
+}
+
+@media screen and (max-width: 343px) {
+
+    .img{
+        width: 290px;
+    }
+
+    .text{
+        width: 100%;
+    }
+
+    .text .text_title{
+        font-size: 23px;
+    }
+
+    .enlaces{
+        width: 50%;
+        bottom: 10%;
+        right: 25%;
+    }
+
+}
